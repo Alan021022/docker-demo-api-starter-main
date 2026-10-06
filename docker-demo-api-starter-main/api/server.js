@@ -20,7 +20,7 @@ const app = express();
 app.use(express.json());
 
 // Un log JSON par requete sur stdout : "docker logs" ne voit que le PID 1
-// et uniquement ce qui sort sur stdout / stderr.
+// et uniquement ce qui sort sur stdout / stderr. Modification
 app.use((req, res, next) => {
   const t0 = Date.now();
   res.on('finish', () => {

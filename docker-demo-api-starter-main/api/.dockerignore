@@ -1,0 +1,23 @@
+# Dependencies (reinstalled in the image via npm ci)
+node_modules
+npm-debug.log*
+
+# VCS
+.git
+.gitignore
+
+# Docs
+*.md
+
+# Secrets / environment
+.env*
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
