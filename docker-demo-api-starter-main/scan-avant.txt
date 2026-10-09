@@ -1,0 +1,5 @@
+Initial Trivy image scan: demo-api:multi
+Command: trivy image --severity HIGH,CRITICAL demo-api:multi (ignore-unfixed not set)
+OS target (alpine 3.20.3): Total 21 (HIGH: 19, CRITICAL: 2)
+Node.js target (node-pkg): Total 33 (HIGH: 30, CRITICAL: 3)
+After the fixable-vulnerability gate (--ignore-unfixed): see scan-apres.txt

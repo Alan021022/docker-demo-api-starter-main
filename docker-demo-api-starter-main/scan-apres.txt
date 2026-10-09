@@ -1,0 +1,6 @@
+Trivy image scan: demo-api:multi
+Severity: HIGH,CRITICAL; ignore-unfixed: true
+Target: demo-api:multi (alpine 3.24.2) (3.24.2)
+HIGH: 0
+CRITICAL: 0
+TOTAL: 0
